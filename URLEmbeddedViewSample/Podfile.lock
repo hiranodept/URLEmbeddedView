@@ -1,9 +1,7 @@
 PODS:
-  - CryptoSwift (0.6.7)
   - Kanna (2.1.1)
   - MisterFusion (2.1.0)
   - URLEmbeddedView (0.7.0):
-    - CryptoSwift (~> 0.6.7)
     - Kanna (~> 2.1.1)
     - MisterFusion (~> 2.1.0)
 
@@ -12,14 +10,13 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   URLEmbeddedView:
-    :path: "../"
+    :path: ../
 
 SPEC CHECKSUMS:
-  CryptoSwift: 685ae257941e5447474348a2b545583e1a16b573
   Kanna: 9b4b086c218703f2b94f5b21a466217dd2f9332e
   MisterFusion: 9f6df9ac06559d21e710510a737f877abec92486
-  URLEmbeddedView: 5ab60f718bb8b8c72e852bf5aa91b095ae74761e
+  URLEmbeddedView: 6ef3125d4e63e2629daf4bbc95eed386b9a37067
 
 PODFILE CHECKSUM: 619170e01539d09ceacf4e43a1c423d46ff1cbf2
 
-COCOAPODS: 1.1.0.rc.3
+COCOAPODS: 1.2.0

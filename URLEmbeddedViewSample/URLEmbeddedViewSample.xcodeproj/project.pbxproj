@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E52786E9E7EBB83CD3686E7 /* Pods_URLEmbeddedViewSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FC98D1CCF3119CFAA8D2C57 /* Pods_URLEmbeddedViewSample.framework */; };
+		01910B3956C938B38F8E0721 /* Pods_URLEmbeddedViewSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5742F7C222A87102A88985E /* Pods_URLEmbeddedViewSample.framework */; };
 		374E3BA01C8F467800812A24 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374E3B9F1C8F467800812A24 /* SafariServices.framework */; };
 		377AF0371C8BE037008A3BE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377AF0361C8BE037008A3BE2 /* AppDelegate.swift */; };
 		377AF0391C8BE037008A3BE2 /* OGSampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377AF0381C8BE037008A3BE2 /* OGSampleViewController.swift */; };
@@ -35,10 +35,10 @@
 		37C950F61CAC28CB007771C7 /* URLEmbeddedViewSample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "URLEmbeddedViewSample-Bridging-Header.h"; sourceTree = "<group>"; };
 		37C950F71CAC28CB007771C7 /* OGObjcSampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OGObjcSampleViewController.h; sourceTree = "<group>"; };
 		37C950F81CAC28CB007771C7 /* OGObjcSampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OGObjcSampleViewController.m; sourceTree = "<group>"; };
-		5FC98D1CCF3119CFAA8D2C57 /* Pods_URLEmbeddedViewSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_URLEmbeddedViewSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6FEDFFD1A9670A218EEF2965 /* Pods-URLEmbeddedViewSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URLEmbeddedViewSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-URLEmbeddedViewSample/Pods-URLEmbeddedViewSample.release.xcconfig"; sourceTree = "<group>"; };
-		74F624438164CA864A2BC545 /* Pods-URLEmbeddedViewSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URLEmbeddedViewSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-URLEmbeddedViewSample/Pods-URLEmbeddedViewSample.debug.xcconfig"; sourceTree = "<group>"; };
 		94933F0C197F28CE21239575 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20A5B9987D3834276EC39E9 /* Pods-URLEmbeddedViewSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URLEmbeddedViewSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-URLEmbeddedViewSample/Pods-URLEmbeddedViewSample.debug.xcconfig"; sourceTree = "<group>"; };
+		C5742F7C222A87102A88985E /* Pods_URLEmbeddedViewSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_URLEmbeddedViewSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6C0DA8539E3D2779BAA2779 /* Pods-URLEmbeddedViewSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URLEmbeddedViewSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-URLEmbeddedViewSample/Pods-URLEmbeddedViewSample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +47,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				374E3BA01C8F467800812A24 /* SafariServices.framework in Frameworks */,
-				0E52786E9E7EBB83CD3686E7 /* Pods_URLEmbeddedViewSample.framework in Frameworks */,
+				01910B3956C938B38F8E0721 /* Pods_URLEmbeddedViewSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,7 +60,7 @@
 				377AF0351C8BE037008A3BE2 /* URLEmbeddedViewSample */,
 				377AF0341C8BE037008A3BE2 /* Products */,
 				4F42B3642A6A8487D9B0CF92 /* Frameworks */,
-				CFBC4B050C64B51E9ECC8740 /* Pods */,
+				CF1AA7CC63A3481B225CD4CA /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,16 +96,16 @@
 			children = (
 				374E3B9F1C8F467800812A24 /* SafariServices.framework */,
 				94933F0C197F28CE21239575 /* Pods.framework */,
-				5FC98D1CCF3119CFAA8D2C57 /* Pods_URLEmbeddedViewSample.framework */,
+				C5742F7C222A87102A88985E /* Pods_URLEmbeddedViewSample.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CFBC4B050C64B51E9ECC8740 /* Pods */ = {
+		CF1AA7CC63A3481B225CD4CA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				74F624438164CA864A2BC545 /* Pods-URLEmbeddedViewSample.debug.xcconfig */,
-				6FEDFFD1A9670A218EEF2965 /* Pods-URLEmbeddedViewSample.release.xcconfig */,
+				B20A5B9987D3834276EC39E9 /* Pods-URLEmbeddedViewSample.debug.xcconfig */,
+				D6C0DA8539E3D2779BAA2779 /* Pods-URLEmbeddedViewSample.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -117,12 +117,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 377AF0451C8BE037008A3BE2 /* Build configuration list for PBXNativeTarget "URLEmbeddedViewSample" */;
 			buildPhases = (
-				5C6E5A67AEEFBA35F1912278 /* [CP] Check Pods Manifest.lock */,
+				6968C0FDC295E5C371BBA2FC /* [CP] Check Pods Manifest.lock */,
 				377AF02F1C8BE037008A3BE2 /* Sources */,
 				377AF0301C8BE037008A3BE2 /* Frameworks */,
 				377AF0311C8BE037008A3BE2 /* Resources */,
-				6E4904324F3D4DD883BB2913 /* [CP] Embed Pods Frameworks */,
-				9BFD72EE8113496E28FB73E1 /* [CP] Copy Pods Resources */,
+				2D6BCD00E32F3F78CDAF0F7E /* [CP] Embed Pods Frameworks */,
+				0028BF7977F3E475173F8F96 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,22 +182,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5C6E5A67AEEFBA35F1912278 /* [CP] Check Pods Manifest.lock */ = {
+		0028BF7977F3E475173F8F96 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-URLEmbeddedViewSample/Pods-URLEmbeddedViewSample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6E4904324F3D4DD883BB2913 /* [CP] Embed Pods Frameworks */ = {
+		2D6BCD00E32F3F78CDAF0F7E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -212,19 +212,19 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-URLEmbeddedViewSample/Pods-URLEmbeddedViewSample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9BFD72EE8113496E28FB73E1 /* [CP] Copy Pods Resources */ = {
+		6968C0FDC295E5C371BBA2FC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-URLEmbeddedViewSample/Pods-URLEmbeddedViewSample-resources.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -354,7 +354,7 @@
 		};
 		377AF0461C8BE037008A3BE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 74F624438164CA864A2BC545 /* Pods-URLEmbeddedViewSample.debug.xcconfig */;
+			baseConfigurationReference = B20A5B9987D3834276EC39E9 /* Pods-URLEmbeddedViewSample.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -363,7 +363,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "szk-atmosphere.URLEmbeddedViewSample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "URLEmbeddedViewSample/URLEmbeddedViewSample-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/hirano/data/FiNC_Lib/URLEmbeddedView/URLEmbeddedViewSample/URLEmbeddedViewSample/URLEmbeddedViewSample-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
@@ -371,7 +371,7 @@
 		};
 		377AF0471C8BE037008A3BE2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6FEDFFD1A9670A218EEF2965 /* Pods-URLEmbeddedViewSample.release.xcconfig */;
+			baseConfigurationReference = D6C0DA8539E3D2779BAA2779 /* Pods-URLEmbeddedViewSample.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -380,7 +380,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "szk-atmosphere.URLEmbeddedViewSample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "URLEmbeddedViewSample/URLEmbeddedViewSample-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/hirano/data/FiNC_Lib/URLEmbeddedView/URLEmbeddedViewSample/URLEmbeddedViewSample/URLEmbeddedViewSample-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

@@ -8,7 +8,7 @@
     "Taiki Suzuki": "s1180183@gmail.com"
   },
   "source": {
-    "git": "https://github.com/marty-suzuki/URLEmbeddedView.git",
+    "git": "https://github.com/hiranodept/URLEmbeddedView.git",
     "tag": "0.7.0"
   },
   "social_media_url": "https://twitter.com/marty_suzuki",
@@ -29,9 +29,6 @@
     ],
     "Kanna": [
       "~> 2.1.1"
-    ],
-    "CryptoSwift": [
-      "~> 0.6.7"
     ]
   }
 }

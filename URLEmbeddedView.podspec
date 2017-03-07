@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
 
   s.license          = 'MIT'
   s.author           = { "Taiki Suzuki" => "s1180183@gmail.com" }
-  s.source           = { :git => "https://github.com/marty-suzuki/URLEmbeddedView.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/hiranodept/URLEmbeddedView.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/marty_suzuki'
 
   s.platform     = :ios, '8.0'

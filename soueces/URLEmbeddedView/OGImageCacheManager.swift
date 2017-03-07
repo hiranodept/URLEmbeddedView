@@ -110,8 +110,9 @@ extension OGImageCacheManager {
 //MARK: - Read and write
 extension OGImageCacheManager {
     fileprivate func pathForURLString(_ urlString: String) -> String {
-        if urlString.characters.count < 2 { return cacheDirectory + "/" }
-        return cacheDirectory + "/" +  urlString.substring(to: urlString.characters.index(urlString.startIndex, offsetBy: 2)) + "/" + urlString
+        let md5String = md5(urlString)
+        if md5String.characters.count < 2 { return cacheDirectory + "/" }
+        return cacheDirectory + "/" +  md5String.substring(to: md5String.characters.index(md5String.startIndex, offsetBy: 2)) + "/" + md5String
     }
     
     func cachedImage(urlString: String) -> UIImage? {
@@ -147,5 +148,28 @@ extension OGImageCacheManager {
             try fileManager.removeItem(atPath: cacheDirectory)
             createDirectoriesIfNeeded()
         } catch {}
+    }
+}
+
+//MARK: - MD5
+/* （メモ）
+ * Bridging-Header.hに
+ * #import <CommonCrypto/CommonDigest.h>
+ * を書いておく。
+ */
+extension OGImageCacheManager {
+        func md5(_ string: String) -> String {
+        var md5String = ""
+        let digestLength = Int(CC_MD5_DIGEST_LENGTH)
+        let md5Buffer = UnsafeMutablePointer<UInt8>.allocate(capacity: digestLength)
+        
+        if let data = string.data(using: .utf8) {
+            data.withUnsafeBytes({ (bytes: UnsafePointer<CChar>) -> Void in
+                CC_MD5(bytes, CC_LONG(data.count), md5Buffer)
+                md5String = (0..<digestLength).reduce("") { $0 + String(format:"%02x", md5Buffer[$1]) }
+            })
+        }
+        
+        return md5String
     }
 }
