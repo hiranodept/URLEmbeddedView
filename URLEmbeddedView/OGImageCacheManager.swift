@@ -110,8 +110,9 @@ extension OGImageCacheManager {
 //MARK: - Read and write
 extension OGImageCacheManager {
     fileprivate func pathForURLString(_ urlString: String) -> String {
-        if urlString.characters.count < 2 { return cacheDirectory + "/" }
-        return cacheDirectory + "/" +  urlString.substring(to: urlString.characters.index(urlString.startIndex, offsetBy: 2)) + "/" + urlString
+        let md5String = MD5(urlString)
+        if md5String.characters.count < 2 { return cacheDirectory + "/" }
+        return cacheDirectory + "/" +  md5String.substring(to: md5String.characters.index(md5String.startIndex, offsetBy: 2)) + "/" + md5String
     }
     
     func cachedImage(urlString: String) -> UIImage? {
